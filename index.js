@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-app.listen(() => console.log("our youtube channel https://www.youtube.com/channel/UC7QtAaqlUhBmMojJISSLJkg"));
+app.listen(() => console.log("server codes bot : https://discord.gg/yenVvvUm4w"));
 app.use('/ping', (req, res) => {
   res.send(new Date());
 });
